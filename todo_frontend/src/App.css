@@ -21,12 +21,19 @@
   --button-text: #ffffff;
 }
 
+@import url("./design-system.css");
+
 .App {
-  text-align: center;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  background-color: var(--color-ffffff);
+  color: var(--color-000000);
   min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100vw;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-ffffff);
+  transition: background 0.3s, color 0.3s;
 }
 
 .App-logo {

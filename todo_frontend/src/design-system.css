@@ -1,0 +1,141 @@
+:root {
+  /* Colors */
+  --color-ffffff: #ffffff;
+  --color-d6d7ef: #d6d7ef;
+  --color-9395d3: #9395d3;
+  --color-8b8787: #8b8787;
+  --color-000000: #000000;
+  --color-d1d1d6: #d1d1d6;
+  --color-ebebf5: #ebebf5;
+  --color-34c759: #34c759;
+  --color-ffd60a: #ffd60a;
+  --color-b3b7ee: #b3b7ee;
+
+  /* Border radius */
+  --radius-1: 1px;
+  --radius-15: 15px;
+  --radius-20: 20px;
+
+  /* Shadows */
+  --shadow-0: 0 4px 4px 0 #000000;
+
+  /* Spacing (selected common, full list can be extended as needed) */
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-3: 3px;
+  --space-4: 4px;
+  --space-5: 5px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-15: 15px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-25: 25px;
+  --space-28: 28px;
+  --space-30: 30px;
+  --space-32: 32px;
+  --space-35: 35px;
+  --space-38: 38px;
+  --space-44: 44px;
+  --space-49: 49px;
+  --space-54: 54px;
+  --space-60: 60px;
+  --space-68: 68px;
+  --space-70: 70px;
+  --space-73: 73px;
+  --space-82: 82px;
+  --space-118: 118px;
+  --space-124: 124px;
+  --space-131: 131px;
+  --space-400: 400px;
+  --space-414: 414px;
+  --space-429: 429px;
+  --space-494: 494px;
+  --space-896: 896px;
+
+  /* Typography */
+  --font-jost: 'Jost', sans-serif;
+
+  --typo-0-size: 10px;
+  --typo-0-weight: 400;
+  --typo-0-line: 14.45px;
+
+  --typo-1-size: 24px;
+  --typo-1-weight: 600;
+  --typo-1-line: 34.68px;
+
+  --typo-2-size: 13px;
+  --typo-2-weight: 600;
+  --typo-2-line: 18.785px;
+
+  --typo-3-size: 16px;
+  --typo-3-weight: 400;
+  --typo-3-line: 23.12px;
+
+  --typo-4-size: 20px;
+  --typo-4-weight: 600;
+  --typo-4-line: 28.9px;
+
+  --typo-5-size: 15px;
+  --typo-5-weight: 400;
+  --typo-5-line: 21.675px;
+
+  --typo-6-size: 10px;
+  --typo-6-weight: 400;
+  --typo-6-line: 14.45px;
+  --typo-6-color: var(--color-9395d3);
+
+  --typo-7-size: 10px;
+  --typo-7-weight: 400;
+  --typo-7-line: 14.45px;
+  --typo-7-color: var(--color-8b8787);
+
+  --typo-8-size: 24px;
+  --typo-8-weight: 600;
+  --typo-8-line: 34.68px;
+  --typo-8-color: var(--color-ffffff);
+
+  --typo-9-size: 13px;
+  --typo-9-weight: 600;
+  --typo-9-line: 18.785px;
+  --typo-9-color: var(--color-9395d3);
+
+  --typo-10-size: 10px;
+  --typo-10-weight: 400;
+  --typo-10-line: 14.45px;
+  --typo-10-color: var(--color-000000);
+
+  --typo-11-size: 16px;
+  --typo-11-weight: 400;
+  --typo-11-line: 23.12px;
+  --typo-11-color: var(--color-8b8787);
+
+  --typo-12-size: 20px;
+  --typo-12-weight: 600;
+  --typo-12-line: 28.9px;
+  --typo-12-color: var(--color-ffffff);
+
+  --typo-13-size: 15px;
+  --typo-13-weight: 400;
+  --typo-13-line: 21.675px;
+  --typo-13-color: var(--color-ffffff);
+}
+
+/* Utility font classes */
+.typo-0 { font-family: var(--font-jost); font-size: var(--typo-0-size); font-weight: var(--typo-0-weight); line-height: var(--typo-0-line); }
+.typo-1 { font-family: var(--font-jost); font-size: var(--typo-1-size); font-weight: var(--typo-1-weight); line-height: var(--typo-1-line); }
+.typo-2 { font-family: var(--font-jost); font-size: var(--typo-2-size); font-weight: var(--typo-2-weight); line-height: var(--typo-2-line); }
+.typo-3 { font-family: var(--font-jost); font-size: var(--typo-3-size); font-weight: var(--typo-3-weight); line-height: var(--typo-3-line); }
+.typo-4 { font-family: var(--font-jost); font-size: var(--typo-4-size); font-weight: var(--typo-4-weight); line-height: var(--typo-4-line); }
+.typo-5 { font-family: var(--font-jost); font-size: var(--typo-5-size); font-weight: var(--typo-5-weight); line-height: var(--typo-5-line); }
+.typo-6 { font-family: var(--font-jost); font-size: var(--typo-6-size); font-weight: var(--typo-6-weight); line-height: var(--typo-6-line); color: var(--typo-6-color);}
+.typo-7 { font-family: var(--font-jost); font-size: var(--typo-7-size); font-weight: var(--typo-7-weight); line-height: var(--typo-7-line); color: var(--typo-7-color);}
+.typo-8 { font-family: var(--font-jost); font-size: var(--typo-8-size); font-weight: var(--typo-8-weight); line-height: var(--typo-8-line); color: var(--typo-8-color);}
+.typo-9 { font-family: var(--font-jost); font-size: var(--typo-9-size); font-weight: var(--typo-9-weight); line-height: var(--typo-9-line); color: var(--typo-9-color);}
+.typo-10 { font-family: var(--font-jost); font-size: var(--typo-10-size); font-weight: var(--typo-10-weight); line-height: var(--typo-10-line); color: var(--typo-10-color);}
+.typo-11 { font-family: var(--font-jost); font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line); color: var(--typo-11-color);}
+.typo-12 { font-family: var(--font-jost); font-size: var(--typo-12-size); font-weight: var(--typo-12-weight); line-height: var(--typo-12-line); color: var(--typo-12-color);}
+.typo-13 { font-family: var(--font-jost); font-size: var(--typo-13-size); font-weight: var(--typo-13-weight); line-height: var(--typo-13-line); color: var(--typo-13-color);}
