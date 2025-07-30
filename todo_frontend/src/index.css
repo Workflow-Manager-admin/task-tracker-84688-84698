@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-ffffff);
+  font-family: 'Jost', sans-serif;
+  color: var(--color-000000);
+}
